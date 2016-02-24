@@ -1,5 +1,6 @@
-require "order_calculator/version"
-
-module OrderCalculator
-  # Your code goes here...
-end
+require "version"
+require "calculator"
+require "files"
+require "coupom"
+require "discount"
+require "manage_coupom"
