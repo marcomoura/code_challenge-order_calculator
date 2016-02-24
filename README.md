@@ -25,7 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-Basta apenas executar o comando 'exercicio'
+Executar o comando 'exercicio' com os nomes dos quatro arquivos
 
 ```bash
 exercicio cupons.csv products.csv orders.csv order_items.csv totals.csv
