@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 
-require "order_calculator"
+require 'order_calculator'
 
-puts "Processando..."
+puts 'Processando...'
 
 inputs = OrderCalculator::Files.config(ARGV)
 output = OrderCalculator::Calculator.process(inputs)
 OrderCalculator::Files.generate(output)
 
-puts "Processamento finalizado, verifique o arquivo output.csv"
+puts 'Processamento finalizado, verifique o arquivo output.csv'

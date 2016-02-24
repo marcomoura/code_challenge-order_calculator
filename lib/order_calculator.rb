@@ -1,6 +1,6 @@
-require "version"
-require "calculator"
-require "files"
-require "coupom"
-require "discount"
-require "manage_coupom"
+require 'version'
+require 'calculator'
+require 'files'
+require 'coupom'
+require 'discount'
+require 'manage_coupom'

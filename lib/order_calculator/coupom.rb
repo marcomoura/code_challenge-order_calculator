@@ -5,7 +5,7 @@ module OrderCalculator
     end
 
     def apply(value)
-      percent? ? calc_percent(value) : calc_abs(value)
+      percent? ? calc_percent(value) : calc_abs
     end
 
     private
@@ -14,7 +14,7 @@ module OrderCalculator
       value * discount / 100.0
     end
 
-    def calc_abs(value)
+    def calc_abs
       discount
     end
 
